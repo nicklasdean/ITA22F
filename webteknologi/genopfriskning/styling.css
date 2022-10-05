@@ -1,0 +1,22 @@
+#blue-box{
+    background-color:blue;
+    width: 20vw;
+}
+
+#red-box{
+    background:red;
+    width: 20vw;
+}
+
+#yellow-box{
+    background-color:yellow;
+    width: 40vw;
+}
+
+.high{
+    height:40vh;
+}
+
+.low{
+    height:20vh
+}
