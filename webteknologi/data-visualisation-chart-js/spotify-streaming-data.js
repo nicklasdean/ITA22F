@@ -1,0 +1,1 @@
+const spotifyStreamingData = [1000, 834];

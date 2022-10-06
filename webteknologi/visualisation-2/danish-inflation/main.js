@@ -1,1 +1,2 @@
-console.log(danishInflation);
+console.log(danishInflationNumbersWithYear);
+console.log(danishInflationNumbers);

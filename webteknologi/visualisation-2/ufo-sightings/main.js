@@ -1,1 +1,1 @@
-console.log(ufoSightings);
+console.log(ufoSightingsLatLng);
