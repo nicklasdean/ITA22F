@@ -24,11 +24,7 @@ function onEachFeature(feature, layer) {
 L.geoJson(kommuneData, {
     style: function (feature) {
         return {
-            weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7,
+            weight: 1,
             fillColor: getColor(feature.properties.label_en)
         };
     },
