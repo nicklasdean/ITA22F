@@ -28,6 +28,6 @@ L.geoJson(kommuneData, {
             fillColor: getColor(feature.properties.label_en)
         };
     },
-    onEachFeature: onEachFeature
+    onEachFeature: onEachFeature,
 }).addTo(map);
 
