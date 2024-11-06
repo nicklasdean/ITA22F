@@ -732,14 +732,3 @@ const ufoSightings = {
     },
   ],
 };
-
-const ufoSightingsLatLng = ufoSightings.Sheet1.map((sighting) => {
-  const latLngString = sighting["lat, lng"];
-
-  const latLngArray = latLngString.split(", ");
-
-  return {
-    lat: parseFloat(latLngArray[0]),
-    lng: parseFloat(latLngArray[1]),
-  };
-});
