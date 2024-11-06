@@ -12,5 +12,5 @@ ufoSightingsArray.forEach(function(sighting) {
 
     const lat = parseFloat(latlngIndividualArray[0]);
     const lng = parseFloat(latlngIndividualArray[1]);
-
+    console.log(sighting, lat, lng);
 });
